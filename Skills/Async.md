@@ -1,65 +1,65 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop
-  - `try..catch`
-  - Non-blocking
-  - Async I/O
-  - Thread pool
-  - Pattern Reactor
-  - CAS operations
-  - epoll
-  - kqueue
-  - Completion ports
+  - Event loop +
+  - `try..catch` *
+  - Non-blocking *
+  - Async I/O *
+  - Thread pool *
+  - Pattern Reactor +
+  - CAS operations +
+  - epoll ~
+  - kqueue ~
+  - Completion ports ~
   - Event ports
   - libuv
-  - Race conditions
-  - Dead locks
-  - Live locks
-  - Concurrent programming
-  - Parallel programming
-  - Actor Model
-  - Thread
-  - Process
+  - Race conditions *
+  - Dead locks *
+  - Live locks *
+  - Concurrent programming *
+  - Parallel programming *
+  - Actor Model +
+  - Thread *
+  - Process *
 - Async contracts
-  - Callbacks
-  - Callback-last-error-first
-  - Thenable
-  - Promise
-  - Async/await
-  - Future
-  - Deferred
-  - Sync generator
-  - Async Generator
-  - Async Iterator
-  - Event
-  - Coroutine
-  - Goroutine
-  - Signal
-  - Stream
-  - Chain of responsibility
-  - Middleware
-  - Locks
+  - Callbacks *
+  - Callback-last-error-first +
+  - Thenable +
+  - Promise *
+  - Async/await *
+  - Future +
+  - Deferred *
+  - Sync generator +
+  - Async Generator *
+  - Async Iterator *
+  - Event *
+  - Coroutine +
+  - Goroutine *
+  - Signal *
+  - Stream *
+  - Chain of responsibility *
+  - Middleware *
+  - Locks *
 - Async adapters and utils
-  - callbackify
-  - promisify
-  - asyncify
-  - Callbacks compose
-  - Async compose
+  - callbackify ~
+  - promisify ~
+  - asyncify ~
+  - Callbacks compose +
+  - Async compose *
 - Async abstractions interfaces
-  - EventEmitter
-  - Observable/Observer
-  - Readable
-  - Writable
+  - EventEmitter *
+  - Observable/Observer *
+  - Readable *
+  - Writable *
   - Transform
-  - Async Pool
-  - Async Queue
-  - Async Collector
-  - Semaphore
-  - Mutex
-  - Spin Lock
+  - Async Pool *
+  - Async Queue *
+  - Async Collector *
+  - Semaphore *
+  - Mutex *
+  - Spin Lock *
 - JavaScript & Node.js specific
-  - Timers
+  - Timers *
   - `setImmediate`
   - `nextTick`
   - AbortController
@@ -68,7 +68,7 @@
   - Promise double resolve
   - Atomics
   - High resolution clock
-  - Callback hell
+  - Callback hell *
   - Promise hell
   - ref() and unref()
   - Error handling in async code
