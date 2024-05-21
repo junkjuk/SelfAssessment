@@ -1,65 +1,65 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop +
-  - `try..catch` *
-  - Non-blocking *
-  - Async I/O *
-  - Thread pool *
-  - Pattern Reactor +
-  - CAS operations +
-  - epoll ~
-  - kqueue ~
-  - Completion ports ~
+  - Event loop: 🎓 known
+  - `try..catch`: 🖐️ used
+  - Non-blocking: 🖐️ used
+  - Async I/O: 🖐️ used
+  - Thread pool: 🖐️ used
+  - Pattern Reactor: 🎓 known
+  - CAS operations: 🎓 known
+  - epoll: 👂 heard
+  - kqueue: 👂 heard
+  - Completion ports: 👂 heard
   - Event ports
   - libuv
-  - Race conditions *
-  - Dead locks *
-  - Live locks *
-  - Concurrent programming *
-  - Parallel programming *
-  - Actor Model +
-  - Thread *
-  - Process *
+  - Race conditions: 🖐️ used
+  - Dead locks: 🖐️ used
+  - Live locks: 🖐️ used
+  - Concurrent programming: 🖐️ used
+  - Parallel programming: 🖐️ used
+  - Actor Model: 🎓 known
+  - Thread: 🖐️ used
+  - Process: 🖐️ used
 - Async contracts
-  - Callbacks *
-  - Callback-last-error-first +
-  - Thenable +
-  - Promise *
-  - Async/await *
-  - Future +
-  - Deferred *
-  - Sync generator +
-  - Async Generator *
-  - Async Iterator *
-  - Event *
-  - Coroutine +
-  - Goroutine *
-  - Signal *
-  - Stream *
-  - Chain of responsibility *
-  - Middleware *
-  - Locks *
+  - Callbacks: 🖐️ used
+  - Callback-last-error-first: 🎓 known
+  - Thenable: 🎓 known
+  - Promise: 🖐️ used
+  - Async/await: 🖐️ used
+  - Future: 🎓 known
+  - Deferred: 🖐️ used
+  - Sync generator: 🎓 known
+  - Async Generator: 🖐️ used
+  - Async Iterator: 🖐️ used
+  - Event: 🖐️ used
+  - Coroutine: 🎓 known
+  - Goroutine: 🖐️ used
+  - Signal: 🖐️ used
+  - Stream: 🖐️ used
+  - Chain of responsibility: 🖐️ used
+  - Middleware: 🖐️ used
+  - Locks: 🖐️ used
 - Async adapters and utils
-  - callbackify ~
-  - promisify ~
-  - asyncify ~
-  - Callbacks compose +
-  - Async compose *
+  - callbackify: 👂 heard
+  - promisify: 👂 heard
+  - asyncify: 👂 heard
+  - Callbacks compose: 🎓 known
+  - Async compose: 🖐️ used
 - Async abstractions interfaces
-  - EventEmitter *
-  - Observable/Observer *
-  - Readable *
-  - Writable *
+  - EventEmitter: 🖐️ used
+  - Observable/Observer: 🖐️ used
+  - Readable: 🖐️ used
+  - Writable: 🖐️ used
   - Transform
-  - Async Pool *
-  - Async Queue *
-  - Async Collector *
-  - Semaphore *
-  - Mutex *
-  - Spin Lock *
+  - Async Pool: 🖐️ used
+  - Async Queue: 🖐️ used
+  - Async Collector: 🖐️ used
+  - Semaphore: 🖐️ used
+  - Mutex: 🖐️ used
+  - Spin Lock: 🖐️ used
 - JavaScript & Node.js specific
-  - Timers *
+  - Timers: 🖐️ used
   - `setImmediate`
   - `nextTick`
   - AbortController
@@ -68,7 +68,7 @@
   - Promise double resolve
   - Atomics
   - High resolution clock
-  - Callback hell *
+  - Callback hell: 🖐️ used
   - Promise hell
   - ref() and unref()
   - Error handling in async code
